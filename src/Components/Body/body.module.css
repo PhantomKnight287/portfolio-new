@@ -26,4 +26,7 @@
     flex-direction: column-reverse;
     gap: 2rem;
   }
+  .contentContainer{
+    width:96%
+  }
 }
