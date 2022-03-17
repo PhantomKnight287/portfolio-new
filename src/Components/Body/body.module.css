@@ -19,12 +19,11 @@
   height: 250px;
   width: 250px;
   outline: 4px solid #ff1c5c;
-
 }
 
-@media (max-width:600px){
-  .introContainer{
+@media (max-width: 600px) {
+  .introContainer {
     flex-direction: column-reverse;
-    gap:2rem;
+    gap: 2rem;
   }
 }

@@ -18,15 +18,24 @@
 }
 
 .languageContainer:hover {
-  animation: rotation 0.5s ease;
+  animation: rotation 2s ease infinite;
   animation-fill-mode: forwards;
 }
 @keyframes rotation {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  25% {
     transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
@@ -34,15 +43,15 @@
   text-align: center;
 }
 
-.languagesContainer{
+.languagesContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-@media (min-width:850px){
-  .languagesContainer{
+@media (min-width: 850px) {
+  .languagesContainer {
     justify-content: unset;
     align-items: unset;
   }
