@@ -1,0 +1,24 @@
+.skillsContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experienceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcaseContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media (max-width:850px){
+  .showcaseContainer {
+    flex-direction: column;
+  }
+}

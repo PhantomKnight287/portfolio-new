@@ -1,0 +1,43 @@
+.projectsContainer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #1a1a1a;
+  width: 50%;
+  border-radius: 25px;
+  padding:2rem;
+}
+
+.links{
+    display: flex;
+    gap:2rem
+}
+.links a{
+    color:skyblue;
+    text-decoration: solid;
+}
+
+.project h4{
+  margin-bottom: 0rem;
+}
+.project p{
+  color: turquoise;
+}

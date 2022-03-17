@@ -1,0 +1,49 @@
+.languageContainer img {
+  width: 25px;
+  height: 25px;
+}
+
+.languageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+  background-color: rgb(21, 26, 33);
+  padding: 0.4rem;
+  border-radius: 25px;
+  width: 100%;
+  height: 3rem;
+}
+
+.languageContainer:hover {
+  animation: rotation 0.5s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+.experienceContainer {
+  text-align: center;
+}
+
+.languagesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width:850px){
+  .languagesContainer{
+    justify-content: unset;
+    align-items: unset;
+  }
+}
