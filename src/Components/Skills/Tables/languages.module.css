@@ -17,13 +17,6 @@
   height: 3rem;
 }
 
-.languageContainer:hover {
-  /* animation: rotation 2s ease infinite; */
-  transform: translate3d(12px, 50%, 3em);
-  transition: all 1s ease;
-  animation-fill-mode: forwards;
-}
-
 .experienceContainer {
   text-align: center;
 }
