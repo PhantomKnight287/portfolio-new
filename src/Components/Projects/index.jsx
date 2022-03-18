@@ -30,7 +30,7 @@ export function Projects() {
       <h3>Projects</h3>
       <div className={styles["projects"]}>
         {AllProjects.map((project, index) => (
-          <div className={styles["project"]} key={index}>
+          <div className={`${styles["project"]}`} key={index}>
             <h4>{project.name}</h4>
             <p>{project.description}</p>
             <div className={styles["links"]}>

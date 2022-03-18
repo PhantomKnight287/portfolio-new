@@ -9,10 +9,12 @@
 .projects {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .project {
   display: flex;
@@ -21,23 +23,25 @@
   justify-content: center;
   margin-bottom: 20px;
   background-color: #1a1a1a;
-  width: 50%;
+  width: 420px;
   border-radius: 25px;
-  padding:2rem;
+  height: 285px;
+  margin: 1rem;
 }
 
-.links{
-    display: flex;
-    gap:2rem
+.links {
+  display: flex;
+  gap: 2rem;
 }
-.links a{
-    color:skyblue;
-    text-decoration: solid;
+.links a {
+  color: skyblue;
+  text-decoration: solid;
 }
 
-.project h4{
+.project h4 {
   margin-bottom: 0rem;
 }
-.project p{
+.project p {
   color: turquoise;
+  margin:0.3rem;
 }
