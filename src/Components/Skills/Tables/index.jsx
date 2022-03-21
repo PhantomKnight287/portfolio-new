@@ -11,7 +11,7 @@ const Language = [
   },
   {
     name: "Python",
-    iconHref: "/languages/python.png",
+    iconHref: "/languages/python.png"
   },
 ];
 
@@ -25,7 +25,10 @@ export function Languages() {
         {Language.map((language, index) => {
           return (
             <div className={styles["languageContainer"]} key={index}>
-              <img src={language.iconHref} alt={language.name} />
+              <img
+                src={language.iconHref}
+                alt={language.name}
+              />
               <h3>{language.name}</h3>
             </div>
           );
@@ -39,6 +42,7 @@ const Tech = [
   {
     name: "React",
     iconHref: "/tech/React.png",
+    rotate: true,
   },
   {
     name: "Next.js",
@@ -55,6 +59,7 @@ const Tech = [
   {
     name: "React Native",
     iconHref: "/tech/React.png",
+    rotate: true,
   },
 ];
 
@@ -68,7 +73,11 @@ export function Technologies() {
         {Tech.map((tech, index) => {
           return (
             <div className={styles["languageContainer"]} key={index}>
-              <img src={tech.iconHref} alt={tech.name} />
+              <img
+                src={tech.iconHref}
+                alt={tech.name}
+                className={tech.rotate ? styles["rotatingImage"] : ""}
+              />
               <h3>{tech.name}</h3>
             </div>
           );
