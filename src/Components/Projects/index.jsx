@@ -2,6 +2,12 @@ import styles from "./projects.module.css";
 
 const AllProjects = [
   {
+    name: "Portfolio",
+    description: "My Portfolio",
+    visitUrl: "https://gurpalsingh.me",
+    githubUrl: "https://github.com/PhantomKnight287/portfolio-new",
+  },
+  {
     name: "Tracker Website",
     description: `A site which I made when I was learning JavaScript which can tell
               the information about user's device.`,
