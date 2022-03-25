@@ -8,6 +8,11 @@ const AllProjects = [
     githubUrl: "https://github.com/PhantomKnight287/portfolio-new",
   },
   {
+    name: "React Cli",
+    description: "A Cli To Create React Components and Hooks.",
+    githubUrl: "https://github.com/PhantomKnight287/react-cli",
+  },
+  {
     name: "Tracker Website",
     description: `A site which I made when I was learning JavaScript which can tell
               the information about user's device.`,
@@ -40,20 +45,24 @@ export function Projects() {
             <h4>{project.name}</h4>
             <p>{project.description}</p>
             <div className={styles["links"]}>
-              <a
-                href={project.visitUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit
-              </a>
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
+              {project.visitUrl && (
+                <a
+                  href={project.visitUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit
+                </a>
+              )}
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </a>
+              )}
             </div>
           </div>
         ))}
