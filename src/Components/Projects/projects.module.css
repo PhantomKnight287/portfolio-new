@@ -36,7 +36,7 @@
   margin-bottom: 0.5rem;
 }
 .links a {
-  color: skyblue;
+  color: mediumseagreen;
   text-decoration: solid;
 }
 
@@ -44,6 +44,8 @@
   margin-bottom: 0rem;
 }
 .project p {
-  color: #1ee0eb;
+  color: transparent;
+  background:linear-gradient(to right,#64d4cd,#14dcff);
+  background-clip: text;
   margin:0.3rem;
 }
