@@ -14,8 +14,7 @@
   flex-wrap: wrap;
 }
 .socials a{
-    color: mediumslateblue;
+    color: lightseagreen;
     text-decoration: solid;
-    font-family: 'Kalam', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
