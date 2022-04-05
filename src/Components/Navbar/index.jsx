@@ -20,7 +20,7 @@ export function Navbar() {
     <>
       <div
         className={`${styles["navbarContainer"]} ${
-          isScrolled ? "scrolled" : ""
+          isScrolled ? styles["scrolled"] : ""
         }`}
       >
         <div className={styles["nameContainer"]}>
