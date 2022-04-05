@@ -1,16 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Kalam:wght@300&family=Lobster&family=Mochiy+Pop+P+One&family=Open+Sans&display=swap");
+
+:root {
+  --bgc: #111;
+  --projectBackgroundColor: #1a1a1a;
+}
+
 body {
   margin: 0;
   font-family: "Mochiy Pop P One", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background-color: #111;
+  background-color: var(--bgc);
   overflow-x: hidden;
+}
+html {
   scroll-behavior: smooth;
 }
-
+a{
+  text-decoration:none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.text-white{
+  fill: white;
 }
