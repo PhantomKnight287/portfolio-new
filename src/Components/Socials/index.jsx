@@ -4,6 +4,7 @@ export function Socials() {
   return (
     <>
       <div className={styles["socialsContainer"]}>
+        <h2>Socials</h2>
         <div className={styles["socials"]}>
           <a
             href="https://github.com/PhantomKnight287"
