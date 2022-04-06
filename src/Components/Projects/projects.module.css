@@ -44,8 +44,6 @@
   margin-bottom: 0rem;
 }
 .project p {
-  color: transparent;
-  background:linear-gradient(to right,#64d4cd,#14dcff);
-  background-clip: text;
+  color: #64d4cd;
   margin:0.3rem;
 }
