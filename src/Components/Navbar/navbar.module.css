@@ -20,3 +20,6 @@
 .nameContainer h1 {
   margin: 1rem;
 }
+.scrolled {
+  background-color: rgb(14, 14, 14) !important;
+}
