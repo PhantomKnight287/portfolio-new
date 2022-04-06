@@ -4,28 +4,17 @@ import { Navbar } from "./Navbar";
 import { Projects } from "./Projects";
 import { Skills } from "./Skills";
 import { Socials } from "./Socials";
-import { Dock } from "./Dock";
+
 export function Containered() {
   return (
     <>
       <Navbar />
       <main>
-        <div id="whoami">
-          <Body />
-        </div>
-        <div id="socials">
-          <Socials />
-        </div>
-        <div id="skills">
-          <Skills />
-        </div>
-        <div id="projects">
-          <Projects />
-        </div>
+        <Body />
+        <Skills />
+        <Projects />
+        <Socials />
       </main>
-      <aside>
-        <Dock />
-      </aside>
     </>
   );
 }
