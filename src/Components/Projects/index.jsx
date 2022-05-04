@@ -13,6 +13,11 @@ const AllProjects = [
     githubUrl: "https://github.com/PhantomKnight287/react-cli",
   },
   {
+    name:"DenoCord",
+    description:"An Object Oriented Discord Api Wrapper for Deno.",
+    githubUrl:"https://github.com/denocord-labs/"
+  },
+  {
     name: "Tracker Website",
     description: `A site which I made when I was learning JavaScript which can tell
               the information about user's device.`,
