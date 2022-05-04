@@ -26,7 +26,28 @@
     flex-direction: column-reverse;
     gap: 2rem;
   }
-  .contentContainer{
-    width:96%
+  .contentContainer {
+    width: 96%;
   }
 }
+.socials{
+  display: grid;
+  place-items: center;
+}
+.socials > img {
+  height: 35px;
+  width: 35px;
+  margin: 0.5rem;
+  transition: all 3s;
+}
+/* .socials a:hover > img {
+  animation: rotate 3s  infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */

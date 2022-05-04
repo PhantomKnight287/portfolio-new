@@ -13,7 +13,7 @@ export function Containered() {
         <Body />
         <Skills />
         <Projects />
-        <Socials />
+        {/* <Socials /> */}
       </main>
     </>
   );
