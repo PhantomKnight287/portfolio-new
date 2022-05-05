@@ -19,6 +19,16 @@
 
 .nameContainer h1 {
   margin: 1rem;
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 178, 64),
+    rgb(255, 100, 106),
+    rgb(211, 118, 247),
+    rgb(55, 75, 249)
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 .scrolled {
   background-color: rgb(14, 14, 14) !important;

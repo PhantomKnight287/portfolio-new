@@ -1,9 +1,7 @@
 import { Body } from "./Body";
-import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
 import { Projects } from "./Projects";
 import { Skills } from "./Skills";
-import { Socials } from "./Socials";
 
 export function Containered() {
   return (
@@ -13,8 +11,26 @@ export function Containered() {
         <Body />
         <Skills />
         <Projects />
-        {/* <Socials /> */}
       </main>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-285TD5F9QW"
+        type="text/partytown"
+      ></script>
+      <script
+        type="text/partytown"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+    
+          gtag("config", "G-285TD5F9QW");
+          `,
+        }}
+      ></script>
     </>
   );
 }

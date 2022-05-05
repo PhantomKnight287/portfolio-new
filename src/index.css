@@ -17,14 +17,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.text-white{
-  fill: white;
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #111;
 }
