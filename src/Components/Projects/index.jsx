@@ -109,7 +109,7 @@ const Otherprojects = [
   },
 
   {
-    name: "Kek Blogs",
+    name: "KekLab's Landing Page",
     githubUrl: "https://github.com/kekwlabs/kekwlabs.github.io",
     visitUrl: "https://kekwlabs.github.io/",
     description: "KekwLab's Landing Page",

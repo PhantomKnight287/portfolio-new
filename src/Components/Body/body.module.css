@@ -18,9 +18,9 @@
   border-radius: 15px;
   height: 250px;
   width: 250px;
-  outline: 4px solid #ff1c5c;
+  /* outline: 4px solid #ff1c5c; */
+  box-shadow: 7px 7px 7px #ff1c5c;
 }
-
 @media (max-width: 600px) {
   .introContainer {
     flex-direction: column-reverse;
@@ -30,7 +30,7 @@
     width: 96%;
   }
 }
-.socials{
+.socials {
   display: grid;
   place-items: center;
 }
@@ -40,14 +40,3 @@
   margin: 0.5rem;
   transition: all 3s;
 }
-/* .socials a:hover > img {
-  animation: rotate 3s  infinite linear;
-}
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-} */
