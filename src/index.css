@@ -3,6 +3,7 @@
 :root {
   --bgc: #111;
   --projectBackgroundColor: #1a1a1a;
+  scroll-padding: 100px;
 }
 
 body {

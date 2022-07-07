@@ -7,6 +7,6 @@ const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <Partytown debug={true} forward={["dataLayer.push"]} />
+    <Partytown forward={["dataLayer.push"]} />
   </React.StrictMode>
 );

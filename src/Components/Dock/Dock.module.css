@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.dockContainer {
+  position: fixed;
+  bottom: 70px;
+  background-color: rgba(17, 17, 17, 0.57);
+  padding: 0rem 1rem;
+  border-radius: 25px;
+  border: 2px solid #875ce2;
+  box-shadow: 0px 3px 3px 0px #875ce2;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.linkContainer a {
+  text-decoration: none;
+  color: white;
+}
+.tooltip {
+  position: absolute;
+  top: -40px;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: large;
+  scale: 0;
+  transition: all 150ms;
+}
+.linkContainer {
+  border: 1px solid gray;
+  margin: 0.25rem;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 1);
+  transition: all 150ms;
+  padding-inline: 0.5rem;
+}
+.linkContainer svg{
+    width: 20px;
+}
+.linkContainer:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  scale: 110%;
+}
+.linkParentContainer:hover .tooltip {
+  scale: 1;
+}
